@@ -8,6 +8,10 @@
 #include <chrono>
 #include <list>
 
+// This code is a modification used by AndrewGls on GitHub
+// the original implementation looked for off-track conditions and track completion criteria,
+// this code looks at when error is not decreasing for resetting the simulator.
+
 // Uncomment this define to start to train PID controller.
 //#define enable_tuning_mode
 
